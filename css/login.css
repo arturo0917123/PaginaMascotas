@@ -1,0 +1,131 @@
+/* Estilos globales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e2d;
+    color: #fff;
+  }
+  
+  /* Contenedor principal del login */
+  .login-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-left {
+    width: 50%;
+    background-color: #25283d;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .login-logo {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  
+  .login-stats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .stat-card {
+    background-color: #2a2d45;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+  }
+  
+  .stat-percent {
+    color: #4ce13f;
+  }
+  
+  /* Sección derecha del login */
+  .login-right {
+    width: 50%;
+    background-color: #1e1e2d;
+    padding: 40px;
+  }
+  
+  .login-right h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .login-right p {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2a2d45;
+    color: #fff;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .remember-me input {
+    margin-right: 10px;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #7367f0;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .buy-now {
+    padding: 10px 20px;
+    background-color: #00cfe8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .login-container {
+      flex-direction: column;
+    }
+    
+    .login-left, .login-right {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .stat-card {
+      width: 100px;
+    }
+  }  
